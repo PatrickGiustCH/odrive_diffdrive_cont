@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'odrive_controller'
+package_name = 'odrive_diffdrive_cont'
 
 setup(
     name=package_name,
@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'odrive_controller = odrive_controller.odrive_controller_node:main',
+            'odrive_controller = odrive_diffdrive_cont.odrive_controller_node:main',
         ],
     },
 )
